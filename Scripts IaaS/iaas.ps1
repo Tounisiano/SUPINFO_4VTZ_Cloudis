@@ -83,7 +83,7 @@ DO
 	write-host "5 : Exit"
 	write-host "`n"
 	
-	$choosenMenuItem = Read-Host 'What is your choice ?'
+	$choosenMenuItem = Read-Host 'What is your choice ? '
 	
 	If($choosenMenuItem -eq 1)
 	{
